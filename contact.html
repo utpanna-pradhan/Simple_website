@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-color: rgb(216, 216, 209);
+        }
+        h1{
+            margin-left: 520px;
+            margin-top: 50px;
+            text-decoration: underline;
+        }
+       .contact_form{
+        width: 500px;
+        height: 400px;
+        margin-left: 415px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 5px solid black;
+        border-radius: 15px;
+         font-size: 20px;
+        padding-top: 50px;
+
+
+       }
+       label{
+        padding-left: 100px;
+      
+       }
+       .sub input:hover{
+        cursor: pointer;
+       }
+       .contact_form:hover{
+        background-color: rgb(178, 198, 200);
+       }
+    </style>
+</head>
+<body>
+    <h1>CONTACT <span style="color: red;"> FORM</span></h1>
+
+    <form action="submit.html" method="get">
+        <div class="contact_form">
+            <label>First name:</label>
+            <input type="text" placeholder="Enter first name"  required><br><br>
+            <label>Last name:</label>
+            <input type="text" placeholder="Enter Last name"><br><br>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter mail"><br><br>
+            <label>Phone:</label>
+            <input type="number" placeholder="enter your phone number"  required><br><br>
+            <label>Password:</label>
+            <input type="password" required><br><br>
+            <div class="sub">
+                <input type="submit" value="submit" style="margin-left: 200px;width: 100px;height: 35px;
+                                        margin-top: 20px;border-radius: 12px;font-size: 20px;">
+            </div>
+            
+
+        </div>
+        
+    </form>
+    
+</body>
+</html>
